@@ -1,1 +1,3 @@
-# IMDbQuoteBot
+# @IMDbQuoteBot
+
+https://twitter.com/IMDbQuoteBot
