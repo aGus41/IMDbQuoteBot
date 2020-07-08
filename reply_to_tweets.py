@@ -38,7 +38,6 @@ def reply_to_tweets():
     # We need to use tweet_mode='extended' below. Without it, long tweets would be truncated.
     mentions = api.mentions_timeline(last_id, tweet_mode='extended')
     for mention in reversed(mentions):
-        # print(str(mention.id) + ' - ' + mention.full_text)
         last_id = mention.id
         store_last_id(last_id, FILE_NAME)
         number_of_quotes = 10
