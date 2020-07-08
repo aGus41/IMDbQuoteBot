@@ -96,9 +96,7 @@ def get_random_movie():
     # Return a random movie between IMDb top 250
     top250 = ia.get_top250_movies()
     rnd = random.randrange(249)
-    # print(rnd)
     return top250[rnd]['title'] + ' ' + str(top250[rnd]['year'])
-    # return 'Spotlight 2018'
 
 
 def get_random_quote():
@@ -114,8 +112,6 @@ def get_random_quote():
         except tweepy.error.TweepError:
             get_random_quote()
 
-
-counter = 0
 
 get_random_quote()
 
