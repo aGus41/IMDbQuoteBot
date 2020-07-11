@@ -4,12 +4,13 @@ https://twitter.com/IMDbQuoteBot
 
 Scheduled with crontab:
 ```
-*/5 * * * * python3 reply_to_tweets.py 
-# Runs the script every 5th minute
 
-* */20 * * * python3 get_random_quote.py 
-# Runs the script every 20th hour
+*/3 * * * * python3 reply_to_tweets.py
+# Checks its mentions every 3 minutes
+
+15 15 * * Sun,Thu python3 get_random_quote.py
+# Writes a random movie quote at 15:15 every Sunday and Thursday
+
 ```
 
 
-> ___Agent Smith___: _Never send a human to do a machine's job. The Matrix (1999)_
