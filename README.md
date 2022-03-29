@@ -12,5 +12,5 @@ Scheduled with crontab:
 # Writes a random movie quote at 15:15 every Sunday and Thursday
 
 ```
-
+# Commit check
 
