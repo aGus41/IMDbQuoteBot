@@ -1,0 +1,7 @@
+tweepy
+requests
+imdb
+time
+random
+BeautifulSoup
+
